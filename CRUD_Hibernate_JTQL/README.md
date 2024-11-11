@@ -73,4 +73,40 @@ VALUES ('Phong kham1', -- ten - varchar(50)
        ('Phong kham2', -- ten - varchar(50)
         2 -- soNha - int
        );
+
+`Need to add this code to join the table`
+
+CREATE TABLE Bacsi
+(
+    id INT PRIMARY KEY IDENTITY(1, 1),
+    ten VARCHAR(50),
+    dia_chi VARCHAR(50),
+    luong FLOAT,
+    id_phong_kham INT,
+    FOREIGN KEY (id_phong_kham) REFERENCES dbo.PhongKham (id)
+);
+
+INSERT INTO dbo.Bacsi
+(
+    ten,
+    dia_chi,
+    luong,
+    id_phong_kham
+)
+VALUES
+(   'van canh', -- ten - varchar(50)
+    'diachi',   -- dia_chi - varchar(50)
+    111,        -- luong - float
+    6           -- id_phong_kham - int
+    ),
+(   'van canh', -- ten - varchar(50)
+    'diachi',   -- dia_chi - varchar(50)
+    5,          -- luong - float
+    7           -- id_phong_kham - int
+),
+(   'van canh', -- ten - varchar(50)
+    'diachi',   -- dia_chi - varchar(50)
+    353,        -- luong - float
+    8           -- id_phong_kham - int
+);
 ```
