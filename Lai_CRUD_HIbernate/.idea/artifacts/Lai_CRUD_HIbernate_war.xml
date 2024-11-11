@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Lai_CRUD_HIbernate:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Lai_CRUD_HIbernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Lai_CRUD_HIbernate-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Lai_CRUD_HIbernate:war exploded" />
+    </root>
+  </artifact>
+</component>

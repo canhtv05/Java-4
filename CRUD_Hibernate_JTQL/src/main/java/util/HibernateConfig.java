@@ -1,5 +1,6 @@
 package util;
 
+import model.BacSi;
 import model.PhongKham;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -23,7 +24,9 @@ public class HibernateConfig {
         properties.put(Environment.PASS, "123456");
         properties.put(Environment.SHOW_SQL, "true");
 
+        // cos bao nhieu model thi them can day annotated vao day
         conf.addAnnotatedClass(PhongKham.class); // them vao day de tham chieu
+        conf.addAnnotatedClass(BacSi.class);
 
         conf.setProperties(properties);
         ServiceRegistry registry = new StandardServiceRegistryBuilder()

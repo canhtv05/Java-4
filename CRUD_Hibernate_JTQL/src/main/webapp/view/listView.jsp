@@ -5,7 +5,13 @@
     <title>Title</title>
 </head>
 <body>
+<form action="/phongKham/search" method="get">
+    ten: <input type="text" name="ten"> <br>
+    <button type="submit">Search</button>
+</form>
+
 <a href="/phongKham/view-add">Add new</a>
+<a href="/bac-si/hien-thi">Bac si list</a>
 <table border="1" style="border-collapse: collapse">
     <thead>
     <tr>
@@ -28,5 +34,9 @@
     </c:forEach>
     </tbody>
 </table>
+
+<a href="/phongKham/paging?page=${pageNo > 1 ? pageNo - 1 : 1}">Prev</a><br>
+<a href="/phongKham/paging?page=${pageNo + 1}">Next</a><br>
+
 </body>
 </html>

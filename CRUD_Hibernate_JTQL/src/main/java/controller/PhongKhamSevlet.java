@@ -15,9 +15,11 @@ import java.util.List;
         "/phongKham/view",
         "/phongKham/view-add",
         "/phongKham/view-update",
-
         "/phongKham/detail",
         "/phongKham/delete",
+        "/phongKham/search",
+        "/phongKham/paging",
+
         "/phongKham/add",
         "/phongKham/update",
 })
@@ -48,7 +50,34 @@ public class PhongKhamSevlet extends HttpServlet {
                 deletePhongKham(request, response);
                 break;
             }
+            case "/phongKham/search": {
+                search(request, response);
+                break;
+            }
+            case "/phongKham/paging": {
+                paging(request, response);
+                break;
+            }
         }
+    }
+
+    private void paging(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Integer pageNo = 1;
+        Integer pageSize = 2;
+
+        if(request.getParameter("page") != null) {
+            pageNo = Integer.parseInt(request.getParameter("page"));
+            if (pageNo < 1) pageNo = 1;
+        }
+        request.setAttribute("pageNo", pageNo);
+        request.setAttribute("list", repo.paging(pageNo, pageSize));
+        request.getRequestDispatcher("/view/listView.jsp").forward(request, response);
+    }
+
+    private void search(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String ten = request.getParameter("ten");
+        request.setAttribute("list", repo.search(ten));
+        request.getRequestDispatcher("/view/listView.jsp").forward(request, response);
     }
 
     private void deletePhongKham(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -84,8 +113,8 @@ public class PhongKhamSevlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String path = request.getServletPath();
-        switch (path) {
 
+        switch (path) {
             case "/phongKham/update": {
                 updatePhongKham(request, response);
                 break;
