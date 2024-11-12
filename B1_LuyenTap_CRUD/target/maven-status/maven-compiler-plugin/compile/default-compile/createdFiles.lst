@@ -1,0 +1,7 @@
+repo\BacSiRepo.class
+controller\PhongKhamServlet.class
+entity\BacSi.class
+utils\HIbernateConfig.class
+controller\BacSiServlet.class
+entity\PhongKham.class
+repo\PhongKhamRepo.class
