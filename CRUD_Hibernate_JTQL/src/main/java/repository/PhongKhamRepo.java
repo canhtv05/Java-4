@@ -1,6 +1,7 @@
 package repository;
 
 import model.PhongKham;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import util.HibernateConfig;
@@ -68,5 +69,12 @@ public class PhongKhamRepo {
         query.setFirstResult((pageNo - 1) * pageSize);
         query.setMaxResults(pageSize);
         return (List<PhongKham>) query.list();
+    }
+
+    public List<PhongKham> limitPage(Integer currentPage) {
+        Criteria criteria = s.createCriteria(PhongKham.class);
+        criteria.setFirstResult(currentPage * 5);
+        criteria.setMaxResults(5);
+        return criteria.list();
     }
 }

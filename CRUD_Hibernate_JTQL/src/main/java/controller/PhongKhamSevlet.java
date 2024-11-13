@@ -128,7 +128,8 @@ public class PhongKhamSevlet extends HttpServlet {
 
     private void updatePhongKham(HttpServletRequest request, HttpServletResponse response) throws IOException {
         PhongKham pk = getDataToForm(request);
-        repo.add(pk);
+//        repo.add(pk);
+        repo.update(pk);
         response.sendRedirect("/phongKham/view");
     }
 

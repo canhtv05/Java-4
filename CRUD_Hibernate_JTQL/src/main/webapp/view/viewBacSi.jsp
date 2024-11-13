@@ -16,7 +16,7 @@
 
 <h2>Them bac si</h2>
 <form action="/bac-si/add" method="post">
-    ten <input type="hidden" name="ten" > <br>
+    ten <input type="text" name="ten" > <br>
     dia chi <input type="text" name="diaChi"> <br>
     luong <input type="text" name="luong"> <br>
     id phong kham

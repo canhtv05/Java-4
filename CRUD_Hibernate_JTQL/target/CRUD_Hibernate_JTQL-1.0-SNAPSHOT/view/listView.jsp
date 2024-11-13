@@ -12,6 +12,9 @@
 
 <a href="/phongKham/view-add">Add new</a>
 <a href="/bac-si/hien-thi">Bac si list</a>
+
+<button><a href="/phongKham/view">Reload</a></button>
+
 <table border="1" style="border-collapse: collapse">
     <thead>
     <tr>

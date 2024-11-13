@@ -19,7 +19,6 @@
     dia chi <input type="text" name="diaChi" value="${bs.diaChi}"> <br>
     luong <input type="text" name="luong" value="${bs.luong}"> <br>
     id phong kham
-    ${pk}
     <select name="phongKham">
         <c:forEach items="${pk}" var="p">
             <option value="${p.id}">${p.id}</option>
