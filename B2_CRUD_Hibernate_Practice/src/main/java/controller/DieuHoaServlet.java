@@ -15,7 +15,7 @@ import java.io.IOException;
         "/dh/add",
         "/dh/delete",
         "/dh/view-update",
-        "/dh/update"
+        "/dh/update",
 })
 public class DieuHoaServlet extends HttpServlet {
     private DieuHoaRepo dieuHoaRepo = new DieuHoaRepo();
@@ -55,8 +55,20 @@ public class DieuHoaServlet extends HttpServlet {
     }
 
     private void list(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("dh", dieuHoaRepo.getAll());
+        int pageNo = 1;
+        Integer pageSize = 3;
+
+        if (request.getParameter("page") != null) {
+            pageNo = Integer.parseInt(request.getParameter("page"));
+            if (pageNo < 1) pageNo = 1;
+        }
+
+        Integer totalPage = dieuHoaRepo.getTotalCount();
+
+        request.setAttribute("dh", dieuHoaRepo.pagination((pageNo - 1) * pageSize, pageSize));
         request.setAttribute("ldh", loaiDieuHoaRepo.getAll());
+        request.setAttribute("pageNo", pageNo);
+        request.setAttribute("totalPage", (int)Math.ceil(totalPage) / pageSize);
         request.getRequestDispatcher("/views/listAirConditioner.jsp").forward(request, response);
     }
 

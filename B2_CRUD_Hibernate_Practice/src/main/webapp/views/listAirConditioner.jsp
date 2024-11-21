@@ -41,6 +41,11 @@
             <td><a href="/dh/view-update?id=${h.id}">Update</a></td>
         </tr>
     </c:forEach>
+
+    <a href="/dh/all?page=${pageNo > 1 ? pageNo - 1 : 1}">Prev</a>
+    <h5>${pageNo}</h5>
+    <a href="/dh/all?page=${pageNo < totalPage ? pageNo + 1 : totalPage}">Next</a>
+
 </table>
 </body>
 </html>

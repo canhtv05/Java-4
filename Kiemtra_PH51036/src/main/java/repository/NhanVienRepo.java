@@ -1,40 +1,39 @@
 package repository;
 
-import entity.DieuHoa;
+import entity.NhanVien;
 import org.hibernate.Session;
-import utils.HibernateConfig;
+import util.HibernateConfig;
 
 import java.util.List;
 
-public class DieuHoaRepo {
+public class NhanVienRepo {
     private Session s;
 
-    public DieuHoaRepo() {
+    public NhanVienRepo() {
         s = HibernateConfig.getFACTORY().openSession();
     }
 
-    public DieuHoa getOne(Integer id) {
-        return s.find(DieuHoa.class, id);
+    public List<NhanVien> getAll() {
+        return s.createQuery("FROM NhanVien ").list();
     }
 
-    public List<DieuHoa> getAll() {
-        return s.createQuery("FROM DieuHoa ").list();
+    public NhanVien getOne(Integer id) {
+        return s.find(NhanVien.class, id);
     }
 
-    public List<DieuHoa> pagination(Integer pageNo, Integer pageSize) {
-        return s.createQuery("FROM DieuHoa ").setFirstResult(pageNo).setMaxResults(pageSize).list();
+    public List<NhanVien> paging(Integer pageNo, Integer pageSize) {
+        return s.createQuery("FROM NhanVien ").setFirstResult(pageNo).setMaxResults(pageSize).list();
     }
 
-        public Integer getTotalCount() {
-            Long count =(Long) s.createQuery("SELECT COUNT (d) from DieuHoa d").uniqueResult();
+    public Integer totalCount() {
+        Long count = (Long)s.createQuery("FROM NhanVien ").uniqueResult();
+        return count != null ? count.intValue() : 0;
+    }
 
-            return count != null ? count.intValue() : 0;
-        }
-
-    public void add(DieuHoa dh) {
+    public void add(NhanVien nv) {
         try {
             s.getTransaction().begin();
-            s.save(dh);
+            s.save(nv);
             s.getTransaction().commit();
         } catch (Exception e) {
             s.getTransaction().rollback();
@@ -42,10 +41,10 @@ public class DieuHoaRepo {
         }
     }
 
-    public void update(DieuHoa dh) {
+    public void update(NhanVien nv) {
         try {
             s.getTransaction().begin();
-            s.merge(dh);
+            s.merge(nv);
             s.getTransaction().commit();
         } catch (Exception e) {
             s.getTransaction().rollback();
