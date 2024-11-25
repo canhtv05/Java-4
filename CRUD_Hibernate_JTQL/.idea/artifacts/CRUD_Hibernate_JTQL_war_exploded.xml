@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="B2_CRUD_Hibernate_JTQL" />
+          <element id="module-output" name="CRUD_Hibernate_JTQL" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1" />
@@ -35,12 +35,14 @@
           <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-core:3.0.0" />
           <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:3.0.0" />
           <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:4.0.0" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.11.0" />
+          <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.27.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="B2_CRUD_Hibernate_JTQL/web/Web" />
+      <element id="javaee-facet-resources" facet="CRUD_Hibernate_JTQL/web/Web" />
     </root>
   </artifact>
 </component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BaiTap_Filter_CRUD_Ajax:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>BaiTap_Filter_CRUD_Ajax</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="BaiTap_Filter_CRUD_Ajax-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="BaiTap_Filter_CRUD_Ajax:war exploded" />
+    </root>
+  </artifact>
+</component>

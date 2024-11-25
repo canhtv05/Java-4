@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CRUD_Hibernate_JTQL:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="160425cc-3ae8-43ee-bc1b-43531438ad92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/artifacts/BaiTap_Filter_CRUD_Ajax_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/artifacts/BaiTap_Filter_CRUD_Ajax_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__com_google_code_gson_gson_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_27_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_9_4_1_jre16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_el_jakarta_el_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_hibernate_hibernate_core_jakarta_5_6_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/libraries/Maven__org_projectlombok_lombok_1_18_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/BaiTap_Filter_CRUD_Ajax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/controller/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/controller/GiaoVienServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/entity/GiaoVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/entity/TruongHoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/repository/GiaoVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/repository/TruongHocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/util/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/webapp/views/login-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/webapp/views/view-all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/webapp/views/view-detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/webapp/views/view-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoAjax/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoAjax/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/demo-ajax/ajax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoAjax/SinhVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/lib/error_prone_annotations-2.27.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/lib/gson-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-ajax/ajax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demoAjax/SinhVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../B3_CRUD_Hibernate_Practice.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD_Hibernate_JTQL.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRUD_Hibernate_JTQL_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRUD_Hibernate_JTQL_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRUD_Hibernate_JTQL_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRUD_Hibernate_JTQL_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B2_CRUD_Hibernate_JTQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD_Hibernate_JTQL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/BacSiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/BacSiServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/PhongKhamSevlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/PhongKhamSevlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demoFilter/controller/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFilter/controller/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demoFilter/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFilter/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demoFilter/controller/NhanVienController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFilter/controller/NhanVienController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demoFilter/controller/QuanLyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoFilter/controller/QuanLyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/BacSi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/BacSi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/PhongKham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PhongKham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/BacSiRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/BacSiRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/PhongKhamRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/PhongKhamRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scope/DemoScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scope/DemoScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scope/DemoScope2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scope/DemoScope2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/session/DemoSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/session/DemoSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/session/DemoSession2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/session/DemoSession2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/demo-filter/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/demo-filter/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/demo-filter/hienthi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/demo-filter/hienthi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/demo-filter/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/demo-filter/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/listView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/listView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/session.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/updateBacSi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/updateBacSi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/viewAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/viewAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/viewBacSi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/viewBacSi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/viewUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/viewUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/NhanVienController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/NhanVienController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/QuanLyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/demoFilter/controller/QuanLyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/scope/DemoScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/scope/DemoScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/scope/DemoScope2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/scope/DemoScope2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/session/DemoSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/session/DemoSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/session/DemoSession2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/WEB-INF/classes/session/DemoSession2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-filter/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-filter/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-filter/hienthi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-filter/hienthi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-filter/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/demo-filter/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/listView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/listView.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/session.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/session.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/updateBacSi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/updateBacSi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/viewAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/viewAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/viewBacSi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/viewBacSi.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/viewUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CRUD_Hibernate_JTQL-1.0-SNAPSHOT/view/viewUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demoFilter/controller/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFilter/controller/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demoFilter/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFilter/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demoFilter/controller/NhanVienController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFilter/controller/NhanVienController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demoFilter/controller/QuanLyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demoFilter/controller/QuanLyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scope/DemoScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scope/DemoScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scope/DemoScope2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scope/DemoScope2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/session/DemoSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/session/DemoSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/session/DemoSession2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/session/DemoSession2.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2pK2ROsYuK1ngbzCxdBP6brb3jN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat  10.1.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/phongKham/view" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CRUD_Hibernate_JTQL:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="f6fed762-f72d-4dd6-b17d-c5ab09d869ee" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64277" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CRUD_Hibernate_JTQL:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/phongKham/view" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CRUD_Hibernate_JTQL:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b7d74db8-2fd6-4889-8122-15f3960f453d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64277" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CRUD_Hibernate_JTQL:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="160425cc-3ae8-43ee-bc1b-43531438ad92" name="Default Changelist" comment="" />
+      <created>1732500449923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732500449923</updated>
+      <workItem from="1732500458883" duration="6000" />
+      <workItem from="1732552470863" duration="197000" />
+      <workItem from="1732552879085" duration="20000" />
+      <workItem from="1732557469275" duration="2518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

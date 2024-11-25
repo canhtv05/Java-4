@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/B2_CRUD_Hibernate_JTQL.iml" filepath="$PROJECT_DIR$/B2_CRUD_Hibernate_JTQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CRUD_Hibernate_JTQL.iml" filepath="$PROJECT_DIR$/CRUD_Hibernate_JTQL.iml" />
     </modules>
   </component>
 </project>
