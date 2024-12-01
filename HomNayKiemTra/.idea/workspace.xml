@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HomNayKiemTra:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="467c70cd-2418-488b-b9c6-f9d1325406f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/data/AppData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/HoaDonChiTiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/KichThuoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/MauSac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/entity/SanPhamChiTiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/HoaDonChiTietRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/HoaDonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/KhachHangRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/KichThuocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/NhanVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/RepositoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/SanPhamChiTietRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/SanPhamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/repository/base/AbstractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ASM_JAVA4/src/main/java/util/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/target/BaiTap_Filter_CRUD_Ajax-1.0-SNAPSHOT/WEB-INF/classes/controller/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/target/BaiTap_Filter_CRUD_Ajax-1.0-SNAPSHOT/WEB-INF/classes/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/target/BaiTap_Filter_CRUD_Ajax-1.0-SNAPSHOT/views/login-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HomNayKiemTra_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HomNayKiemTra_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_27_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_9_4_1_jre16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_el_jakarta_el_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_jakarta_5_6_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomNayKiemTra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/BaiHatServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/BaiHat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/CaSi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BaiHatRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/CaSiRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/playlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/artifacts/MaiKtraLayDiemASM2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/artifacts/MaiKtraLayDiemASM2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__com_google_code_gson_gson_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_27_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_9_4_1_jre16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_el_jakarta_el_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_hibernate_hibernate_core_jakarta_5_6_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/libraries/Maven__org_projectlombok_lombok_1_18_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/MaiKtraLayDiemASM2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/controller/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/controller/PhongKhamServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/entity/BacSi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/entity/PhongKham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/repository/PhongKhamRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/java/util/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaiKtraLayDiemASM2/src/main/webapp/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/controller/GiaoVienServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/controller/GiaoVienServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/repository/GiaoVienRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/java/repository/GiaoVienRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/webapp/views/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTap_Filter_CRUD_Ajax/src/main/webapp/views/view-all.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD_Hibernate_JTQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD_Hibernate_JTQL/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HibernateConfig" />
+        <option value="Servlet" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2pSrdu47R0Mnblxge8urLBQo2fh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.29">
+    <configuration name="HibernateConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.HibernateConfig" />
+      <module name="HomNayKiemTra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
+      <deployment>
+        <artifact name="HomNayKiemTra:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="447d8e7f-90f7-48c2-8e45-6c2b1c811f41" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53742" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HomNayKiemTra:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HibernateConfig" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.29" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HibernateConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="467c70cd-2418-488b-b9c6-f9d1325406f3" name="Default Changelist" comment="" />
+      <created>1732770411967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732770411967</updated>
+      <workItem from="1732770413188" duration="5654000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

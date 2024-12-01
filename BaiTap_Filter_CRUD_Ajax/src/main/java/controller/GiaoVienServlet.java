@@ -15,6 +15,7 @@ import java.util.List;
 
 @WebServlet(name = "GiaoVienServlet", value = {
         "/gv/view-all",
+        "/gv/view-all/page",
         "/gv/view-update",
         "/gv/detail",
         "/gv/delete",
@@ -29,11 +30,15 @@ public class GiaoVienServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String path  =request.getServletPath();
+        String path = request.getServletPath();
 
         switch (path) {
             case "/gv/view-all": {
                 viewAll(request, response);
+                break;
+            }
+            case "/gv/view-all/page": {
+                paging(request, response);
                 break;
             }
             case "/gv/view-update": {
@@ -53,6 +58,17 @@ public class GiaoVienServlet extends HttpServlet {
                 break;
             }
         }
+    }
+
+    private void paging(HttpServletRequest request, HttpServletResponse response) {
+        Integer pageNo = 1;
+        Integer pageSize = 5;
+
+        if (request.getParameter("page") != null) {
+            pageNo = Integer.parseInt(request.getParameter("page"));
+            if(pageNo < 1) pageNo = 1;
+        }
+
     }
 
     private void viewApiConsole(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -90,12 +106,19 @@ public class GiaoVienServlet extends HttpServlet {
     private void viewAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("gv", giaoVienRepository.getAll());
         request.setAttribute("th", truongHocRepository.getAll());
-        request.getRequestDispatcher("/views/view-all.jsp").forward(request,response);
+
+        request.getRequestDispatcher("/views/view-all.jsp").forward(request, response);
+        Gson gson = new Gson();
+        List<TruongHoc> list = truongHocRepository.getAll();
+        String data = gson.toJson(list);
+        PrintWriter writer = response.getWriter();
+        writer.println(data);
+        writer.flush();
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String path  =request.getServletPath();
+        String path = request.getServletPath();
 
         switch (path) {
             case "/gv/add": {

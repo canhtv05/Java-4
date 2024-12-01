@@ -53,4 +53,8 @@ public class GiaoVienRepository {
             e.printStackTrace();
         }
     }
+
+    public List<GiaoVien> paging(Integer pageNo, Integer pageSize) {
+        return s.createQuery("FROM  GiaoVien ").setFirstResult(pageNo).setMaxResults(pageSize).list();
+    }
 }
