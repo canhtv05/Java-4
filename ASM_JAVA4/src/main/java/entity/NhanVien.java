@@ -23,6 +23,9 @@ public class NhanVien {
     @Column(name = "ma_nv", nullable = false, unique = true)
     private String maNV;
 
+    @Column(name = "vai_tro", nullable = false)
+    private Integer vaiTro;
+
     @Column(name = "ten_dang_nhap", nullable = false, unique = true)
     private String tenDangNhap;
 

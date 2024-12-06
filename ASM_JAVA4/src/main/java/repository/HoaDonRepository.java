@@ -30,4 +30,15 @@ public class HoaDonRepository extends AbstractRepository<HoaDon> {
             return query.uniqueResult();
         }
     }
+
+    public HoaDon updateTrangThaiHoaDon(Integer id, Integer trangThai) {
+        try (Session s = HibernateConfig.getFACTORY().openSession()) {
+            Transaction t = s.beginTransaction();
+            HoaDon hoaDon = s.get(HoaDon.class, id);
+            hoaDon.setTrangThai(trangThai);
+            s.update(hoaDon);
+            t.commit();
+            return hoaDon;
+        }
+    }
 }

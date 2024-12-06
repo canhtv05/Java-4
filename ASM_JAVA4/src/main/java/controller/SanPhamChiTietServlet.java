@@ -1,6 +1,9 @@
 package controller;
 
 import com.google.gson.Gson;
+import entity.KichThuoc;
+import entity.MauSac;
+import entity.SanPham;
 import entity.SanPhamChiTiet;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
@@ -15,6 +18,7 @@ import java.util.List;
         "/api/spct/view-all",
         "/api/spct/one-product",
         "/api/spct/create",
+        "/api/spct/update-dongia-soluong"
 })
 public class SanPhamChiTietServlet extends HttpServlet {
     private final Gson gson = new Gson();
@@ -71,9 +75,51 @@ public class SanPhamChiTietServlet extends HttpServlet {
                 createSPCT(request, response);
                 break;
             }
+            case "/api/spct/update-dongia-soluong": {
+                updateDonGiaSoLuong(request, response);
+                break;
+            }
         }
     }
 
-    private void createSPCT(HttpServletRequest request, HttpServletResponse response) {
+    private void updateDonGiaSoLuong(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Integer id = Integer.parseInt(request.getParameter("id"));
+        Double donGia = Double.parseDouble(request.getParameter("donGia"));
+        Integer soLuong = Integer.parseInt(request.getParameter("soLuong"));
+
+        System.out.println("sl " + soLuong +  "dg " + donGia);
+
+        SanPhamChiTiet sanPhamChiTiet = RepositoryManager.sanPhamChiTietRepository.updateSoLuongVaDonGia(id, soLuong, donGia);
+        String json = gson.toJson(sanPhamChiTiet);
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+
+        PrintWriter writer = response.getWriter();
+        writer.print(json);
+        writer.flush();
+    }
+
+    private void createSPCT(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String maSPCT = request.getParameter("ma-spct");
+        Integer idMauSac = Integer.parseInt(request.getParameter("id-ms"));
+        Integer idKichThuoc = Integer.parseInt(request.getParameter("id-kt"));
+        Integer idSP = Integer.parseInt(request.getParameter("id-sp"));
+        Integer soLuong = Integer.parseInt(request.getParameter("so-luong"));
+        Double donGia = Double.parseDouble(request.getParameter("don-gia"));
+
+        MauSac ms = RepositoryManager.mauSacRepository.getOne(idMauSac);
+        KichThuoc kt = RepositoryManager.kichThuocRepository.getOne(idKichThuoc);
+        SanPham sp = RepositoryManager.sanPhamRepository.getOne(idSP);
+
+        SanPhamChiTiet sanPhamChiTiet = RepositoryManager.sanPhamChiTietRepository.add(new SanPhamChiTiet(null,
+                maSPCT, soLuong, donGia, 1, ms, kt, sp));
+
+        String json = gson.toJson(sanPhamChiTiet);
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+
+        PrintWriter writer = response.getWriter();
+        writer.print(json);
+        writer.flush();
     }
 }

@@ -20,6 +20,7 @@ import java.util.List;
         "/api/hoa-don/by-me",
         "/api/hoa-don/by-me-one",
         "/api/hoa-don/create",
+        "/api/hoa-don/update-trangthai"
 })
 public class HoaDonServlet extends HttpServlet {
     private final Gson gson = new Gson();
@@ -94,7 +95,25 @@ public class HoaDonServlet extends HttpServlet {
                 createHoaDon(request, response);
                 break;
             }
+            case "/api/hoa-don/update-trangthai": {
+                updateTrangThaiHoaDon(request, response);
+                break;
+            }
         }
+    }
+
+    private void updateTrangThaiHoaDon(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Integer id = Integer.parseInt(request.getParameter("id"));
+        Integer trangThai = Integer.parseInt(request.getParameter("trang-thai"));
+
+        HoaDon hoaDon = RepositoryManager.hoaDonRepository.updateTrangThaiHoaDon(id, trangThai);
+        String json = gson.toJson(hoaDon);
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+
+        PrintWriter writer = response.getWriter();
+        writer.print(json);
+        writer.flush();
     }
 
     private void createHoaDon(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -121,7 +140,7 @@ public class HoaDonServlet extends HttpServlet {
         KhachHang khachHang= RepositoryManager.khachHangRepository.getOne(idKH);
         NhanVien nhanVien = RepositoryManager.nhanVienRepository.getOne(idNV);
 
-        HoaDon hoaDon = RepositoryManager.hoaDonRepository.add(new HoaDon(null, formatDate, 1, khachHang, nhanVien));
+        HoaDon hoaDon = RepositoryManager.hoaDonRepository.add(new HoaDon(null, formatDate, 0   , khachHang, nhanVien));
 
         System.out.println(hoaDon.toString());
 

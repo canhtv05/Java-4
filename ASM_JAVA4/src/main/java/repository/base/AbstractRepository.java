@@ -1,5 +1,6 @@
 package repository.base;
 
+import entity.KhachHang;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
@@ -54,16 +55,18 @@ public abstract class AbstractRepository<EntityType> {
         }
     }
 
-    public void update(EntityType entity) {
+    public EntityType update(EntityType entity) {
         Transaction transaction = null;
         try (Session session = HibernateConfig.getFACTORY().openSession()) {
             transaction = session.beginTransaction();
             session.merge(entity);
             transaction.commit();
+            return entity;
         } catch (Exception e) {
             if (transaction != null) transaction.rollback();
             e.printStackTrace();
         }
+        return null;
     }
 
     public void delete(Object id) {
@@ -80,4 +83,5 @@ public abstract class AbstractRepository<EntityType> {
             e.printStackTrace();
         }
     }
+
 }

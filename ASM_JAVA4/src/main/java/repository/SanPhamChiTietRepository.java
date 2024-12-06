@@ -2,6 +2,7 @@ package repository;
 
 import entity.SanPhamChiTiet;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import repository.base.AbstractRepository;
 import util.HibernateConfig;
@@ -29,4 +30,19 @@ public class SanPhamChiTietRepository extends AbstractRepository<SanPhamChiTiet>
         }
     }
 
+    public SanPhamChiTiet updateSoLuongVaDonGia(Integer id, Integer soLuong, Double donGia) {
+        SanPhamChiTiet updateSPCT = null;
+        try (Session s = HibernateConfig.getFACTORY().openSession()) {
+            s.getTransaction().begin();
+            SanPhamChiTiet sanPhamChiTiet = s.get(SanPhamChiTiet.class, id);
+            if(sanPhamChiTiet != null) {
+                sanPhamChiTiet.setSoLuong(soLuong);
+                sanPhamChiTiet.setDonGia(donGia);
+                s.update(sanPhamChiTiet);
+                updateSPCT = sanPhamChiTiet;
+            }
+        s.getTransaction().commit();
+        }
+        return updateSPCT;
+    }
 }

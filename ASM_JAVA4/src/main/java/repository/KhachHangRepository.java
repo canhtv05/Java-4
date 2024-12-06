@@ -28,4 +28,22 @@ public class KhachHangRepository extends AbstractRepository<KhachHang> {
             return query.list();
         }
     }
+
+    public KhachHang updateTrangThai(Integer id, Integer trangThai) {
+        KhachHang updatedKhachHang = null;
+        try (Session session = HibernateConfig.getFACTORY().openSession()) {
+            session.beginTransaction();
+            KhachHang kh = session.get(KhachHang.class, id);
+            if (kh != null) {
+                kh.setTrangThai(trangThai);
+                session.update(kh);
+                updatedKhachHang = kh;
+            }
+            session.getTransaction().commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return updatedKhachHang;
+    }
+
 }

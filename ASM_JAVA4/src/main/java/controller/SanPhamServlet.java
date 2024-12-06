@@ -2,7 +2,7 @@ package controller;
 
 import com.google.gson.Gson;
 import entity.KhachHang;
-import entity.SanPhamChiTiet;
+import entity.SanPham;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
@@ -12,13 +12,13 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 
-@WebServlet(name = "KhachHangServlet", value = {
-        "/api/khach-hang/view-all",
-        "/api/khach-hang/update",
-        "/api/khach-hang/add",
-        "/api/khach-hang/update-trang-thai",
+@WebServlet(name = "SanPhamServlet", value = {
+        "/api/sp/view-all",
+        "/api/sp/update",
+        "/api/sp/add",
+        "/api/sp/update-trang-thai",
 })
-public class KhachHangServlet extends HttpServlet {
+public class SanPhamServlet extends HttpServlet {
     private final Gson gson = new Gson();
 
     @Override
@@ -28,7 +28,7 @@ public class KhachHangServlet extends HttpServlet {
         String path = request.getServletPath();
 
         switch (path) {
-            case "/api/khach-hang/view-all": {
+            case "/api/sp/view-all": {
                 viewAll(request, response);
                 break;
             }
@@ -36,16 +36,15 @@ public class KhachHangServlet extends HttpServlet {
     }
 
     private void viewAll(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String tenOrMa = request.getParameter("ten-or-sdt");
-        List<KhachHang> khachHangList = RepositoryManager.khachHangRepository.getAllByParam(tenOrMa);
-
-        String json = gson.toJson(khachHangList);
+        String tenOrMa = request.getParameter("ten-or-ma");
+        List<SanPham> sanPhamList = RepositoryManager.sanPhamRepository.getAllByParam(tenOrMa);
+        String json = gson.toJson(sanPhamList);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
 
-        PrintWriter out = response.getWriter();
-        out.print(json);
-        out.flush();
+        PrintWriter writer = response.getWriter();
+        writer.print(json);
+        writer.flush();
     }
 
     @Override
@@ -54,15 +53,15 @@ public class KhachHangServlet extends HttpServlet {
         String path = request.getServletPath();
 
         switch (path) {
-            case "/api/khach-hang/update": {
+            case "/api/sp/update": {
                 update(request, response);
                 break;
             }
-            case "/api/khach-hang/add": {
+            case "/api/sp/add": {
                 add(request, response);
                 break;
             }
-            case "/api/khach-hang/update-trang-thai": {
+            case "/api/sp/update-trang-thai": {
                 updateTrangThai(request, response);
                 break;
             }
@@ -73,8 +72,8 @@ public class KhachHangServlet extends HttpServlet {
         Integer id = Integer.parseInt(request.getParameter("id"));
         Integer trangThai = Integer.parseInt(request.getParameter("trang-thai"));
 
-        KhachHang khachHang = RepositoryManager.khachHangRepository.updateTrangThai(id, trangThai);
-        String json = gson.toJson(khachHang);
+        SanPham sanPham = RepositoryManager.sanPhamRepository.updateTrangThai(id, trangThai);
+        String json = gson.toJson(sanPham);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
 
@@ -84,12 +83,11 @@ public class KhachHangServlet extends HttpServlet {
     }
 
     private void add(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String ten = request.getParameter("ten");
-        String sdt = request.getParameter("sdt");
-        String maKH = request.getParameter("ma-kh");
+        String maSP = request.getParameter("ma-sp");
+        String tenSP = request.getParameter("ten-sp");
 
-        KhachHang khachHang = RepositoryManager.khachHangRepository.add(new KhachHang(null, ten, sdt, maKH, 1));
-        String json = gson.toJson(khachHang);
+        SanPham sanPham = RepositoryManager.sanPhamRepository.add(new SanPham(null, maSP, tenSP, 1));
+        String json = gson.toJson(sanPham);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
 
@@ -99,14 +97,13 @@ public class KhachHangServlet extends HttpServlet {
     }
 
     private void update(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        Integer idKH = Integer.valueOf(request.getParameter("id-kh"));
-        String ten = request.getParameter("ten");
-        String sdt = request.getParameter("sdt");
-        String maKH = request.getParameter("ma-kh");
+        Integer id = Integer.parseInt(request.getParameter("id"));
+        String maSP = request.getParameter("ma-sp");
+        String tenSP = request.getParameter("ten-sp");
 
-        KhachHang khachHangEntity = new KhachHang(idKH, ten, sdt, maKH, 1);
-        KhachHang khachHang = RepositoryManager.khachHangRepository.update(khachHangEntity);
-        String json = gson.toJson(khachHang);
+        SanPham sanPham = new SanPham(id, maSP, tenSP, 1);
+        SanPham sanPhamUpdate = RepositoryManager.sanPhamRepository.update(sanPham);
+        String json = gson.toJson(sanPhamUpdate);
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
 
